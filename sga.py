@@ -1,10 +1,10 @@
 
 
-numCandidatos = int(input())
+numCandidatoss = int(input())
 contCombinaciones = 0
 nombres = []
 
-for i in range(0,numCandidatos):
+for i in range(0,numCandidatoss):
 	nombres.append(input())
 	if(i>=1):
 		for j in range(i-1,-1,-1):
