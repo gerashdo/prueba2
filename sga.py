@@ -3,7 +3,7 @@
 numCandidatoss = int(input())
 contCombinaciones = 0
 nombres = []
-##geras
+
 for i in range(0,numCandidatoss):
 	nombres.append(input())
 	if(i>=1):
